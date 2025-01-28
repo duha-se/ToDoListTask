@@ -1,4 +1,4 @@
-# CodeClimb Task Manager - Backend (Spring Boot)
+# ToDoList Task  - Backend (Spring Boot)
 
 ## Overview
 
@@ -7,9 +7,9 @@ tasks, including creating, updating, deleting, and retrieving tasks.
 
 ## Features
 
-- Create, update, display and delete tasks.
+- Create, update, display, and delete tasks.
 - Filter tasks by status.
-- Retrieve all tasks where the dueDate has passed and the status is still pending.
+- Retrieve all tasks where the due-date has passed and the status is still pending.
 
 
 ## Technologies
@@ -22,7 +22,7 @@ tasks, including creating, updating, deleting, and retrieving tasks.
 How to Import a MySQL Dump File:
 1. Open the  terminal and log in to your MySQL server:
 mysql -u <username> -p
-Replace <username> with your MySQL username , and enter your password when prompted.
+Replace <username> with your MySQL username, and enter your password when prompted.
 2. CREATE DATABASE <database_name>;
 3. mysql -u <username> -p <database_name> < /path/to/dump_todo.sql
 
